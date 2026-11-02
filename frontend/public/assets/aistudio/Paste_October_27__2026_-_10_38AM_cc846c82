@@ -1,0 +1,2691 @@
+🚀 ATTEND WITH QR — ULTIMATE PRODUCTION-READY MERN SAAS MASTER PROMPT
+
+ROLE AND MAIN OBJECTIVE
+
+Act as a senior full-stack MERN engineer, SaaS architect, UI/UX designer, security engineer, database architect, QA automation engineer and DevOps engineer.
+
+Your responsibility is to build a completely new, real-world, commercial-grade SaaS web application named Attend With QR.
+
+Product tagline: Scan. Verify. Attend.
+
+Attend With QR is an intelligent, secure, multi-tenant attendance management platform designed specifically for colleges, universities, faculties, administrators and students.
+
+It replaces traditional attendance registers with dynamic QR codes, real-time verification, automated reporting, intelligent analytics and an intuitive digital attendance experience.
+
+Build the complete product from scratch, including its marketing website, application, backend, database, administration dashboard, subscription system, responsive PWA and deployment infrastructure.
+
+The application must be suitable for real users, not just a college project, prototype or demonstration.
+
+1. PROJECT RESET AND NEW PROJECT CREATION
+
+Main workspace:
+
+C:\Users\HP\projects
+
+Project name:
+
+attend-with-qr
+
+Target project directory:
+
+C:\Users\HP\projects\attend-with-qr
+
+Important reset instructions
+
+I want a completely new application, not an incremental upgrade of my previous project.
+
+Inspect the target directory and identify all existing files and folders.
+
+Do not modify or delete other projects inside the main projects workspace.
+
+If Attend With QR already exists, show me the exact directory that will be reset.
+
+Preserve any existing environment credentials, user uploads or production data in a secure backup if they exist.
+
+Ask for confirmation before permanently deleting existing files.
+
+After confirmation, remove the old Attend With QR application files and create a clean project.
+
+Do not retain outdated components, dependencies, APIs, database models or styling.
+
+Do not accidentally delete the main workspace or unrelated project folders.
+
+Generate a new React application using Vite.
+
+Generate a new Node.js and Express backend.
+
+Configure MongoDB and Mongoose.
+
+Install all required dependencies.
+
+Create the new application structure.
+
+Implement the project from the beginning.
+
+Use JavaScript and JSX throughout the application.
+
+Do not introduce TypeScript unless I explicitly request it.
+
+Required project structure
+
+C:\Users\HP\projects │ └── attend-with-qr │ ├── attend-with-qr-frontend │ ├── public │ ├── src │ │ ├── assets │ │ ├── animations │ │ ├── components │ │ ├── layouts │ │ ├── pages │ │ ├── features │ │ ├── hooks │ │ ├── context │ │ ├── services │ │ ├── routes │ │ ├── utils │ │ ├── constants │ │ ├── styles │ │ └── App.jsx │ └── package.json │ ├── attend-with-qr-backend │ ├── src │ │ ├── config │ │ ├── models │ │ ├── controllers │ │ ├── routes │ │ ├── middleware │ │ ├── services │ │ ├── validators │ │ ├── sockets │ │ ├── jobs │ │ ├── utils │ │ ├── constants │ │ └── app.js │ └── package.json │ ├── attend-with-qr-admin-dashboard ├── attend-with-qr-shared ├── attend-with-qr-tests ├── attend-with-qr-docs ├── attend-with-qr-assets ├── attend-with-qr-public ├── attend-with-qr-docker ├── attend-with-qr-ci-cd ├── attend-with-qr-deployment ├── attend-with-qr-scripts ├── attend-with-qr-monitoring ├── attend-with-qr-analytics ├── attend-with-qr-billing ├── attend-with-qr-notifications ├── attend-with-qr-ai-services │ ├── .env.example ├── .gitignore ├── package.json └── README.md 
+
+Use the admin dashboard folder for its own application where appropriate, while sharing reusable components and validation contracts without duplicating business logic.
+
+Every folder must have a clear purpose.
+
+Do not create unnecessary files or empty folders simply to make the structure look larger.
+
+2. MANDATORY TECHNOLOGY STACK
+
+Frontend
+
+React.js with Vite
+
+JavaScript and JSX
+
+HTML5
+
+CSS3
+
+Tailwind CSS
+
+React Router DOM
+
+Axios
+
+TanStack Query
+
+React Context API
+
+React Hook Form
+
+Zod
+
+Lucide React
+
+Recharts
+
+Socket.IO Client
+
+Motion for React
+
+React Hot Toast
+
+QR scanning and generation libraries
+
+PWA support
+
+Use a compatible, actively maintained library for each requirement.
+
+Backend
+
+Node.js
+
+Express.js
+
+JavaScript
+
+MongoDB
+
+Mongoose ODM
+
+Socket.IO
+
+JWT authentication
+
+bcrypt
+
+Multer
+
+Sharp
+
+Helmet
+
+CORS
+
+dotenv
+
+express-rate-limit
+
+Zod validation
+
+secure cookie handling
+
+Nodemailer or a transactional email provider
+
+PDFKit or another maintained PDF library
+
+Use Mongoose rather than Sequelize because this project uses MongoDB. Do not introduce a second database or ORM unnecessarily.
+
+External integrations
+
+Implement configurable integrations for:
+
+Google OAuth
+
+Email magic links
+
+Real SMS OTP delivery
+
+Razorpay for Indian payments
+
+Stripe where supported
+
+Cloudinary or S3-compatible file storage
+
+Google Calendar where authorized
+
+Transactional email
+
+Optional OpenAI or Gemini services
+
+Keep API keys on the backend.
+
+All external integrations must use actual provider APIs and proper authentication.
+
+Do not simulate successful payment, OTP delivery, email delivery or AI generation.
+
+3. PRODUCT BRANDING AND LOGO
+
+Create a unique, modern logo for Attend With QR.
+
+The logo should combine the concepts of a QR code, attendance, verification and a graduation cap or college identity.
+
+Design two versions:
+
+Full logo with product name.
+
+Minimal icon for favicon, navigation and PWA.
+
+Use an SVG-based logo where possible.
+
+Color palette
+
+Primary: #4F46E5 — Indigo
+
+Secondary: #06B6D4 — Cyan
+
+Background: #F8FAFC — Soft white
+
+Dark background: #0F172A — Navy
+
+Success: #22C55E — Green
+
+Warning: #F59E0B — Amber
+
+Error: #EF4444 — Red
+
+Use soft gradients, rounded cards, subtle shadows and generous whitespace.
+
+The design should feel simple, cute, elegant, professional, modern and trustworthy.
+
+4. PREMIUM ANIMATED UI/UX
+
+Build a polished SaaS experience inspired by the usability of modern productivity applications.
+
+Do not directly copy another product's branding or interface.
+
+Implement a complete reusable design system covering:
+
+Typography
+
+Color tokens
+
+Spacing
+
+Buttons
+
+Inputs
+
+Forms
+
+Cards
+
+Tables
+
+Navigation
+
+Dialogs
+
+Tabs
+
+Dropdowns
+
+Tooltips
+
+Toasts
+
+Charts
+
+Loading states
+
+Empty states
+
+Error states
+
+Required animations
+
+Add subtle, meaningful animations to:
+
+Landing page hero.
+
+Navigation menu.
+
+Page transitions.
+
+Sidebar opening and closing.
+
+Buttons and hover states.
+
+Dashboard statistics.
+
+Chart rendering.
+
+Modal dialogs.
+
+Dropdown menus.
+
+QR generation.
+
+QR rotation countdown.
+
+Successful attendance.
+
+Notifications.
+
+Loading skeletons.
+
+Pricing cards.
+
+Onboarding steps.
+
+Create a particularly polished QR check-in animation with a checkmark and confirmation message.
+
+Use lightweight animations that do not slow down the application.
+
+Respect the user's reduced-motion accessibility preference.
+
+Dark and light themes
+
+Implement fully functional dark and light modes.
+
+Add a sun/moon toggle in the navigation.
+
+Support system theme detection and persist the user's preference.
+
+Every page, modal, table, chart, QR display and dashboard must work correctly in both themes.
+
+5. RESPONSIVE DESIGN
+
+The application must work on:
+
+Mobile phones
+
+Tablets
+
+Laptops
+
+Desktop computers
+
+Large monitors
+
+Classroom projectors
+
+Test viewport widths of:
+
+320px, 375px, 390px, 430px, 768px, 1024px, 1280px, 1440px and 1920px.
+
+Use a desktop sidebar and mobile-friendly bottom navigation or drawer.
+
+Make the QR scanner mobile-first.
+
+Use responsive cards for attendance data on smaller screens.
+
+Ensure forms, charts, calendars, tables, navigation and dialogs remain usable.
+
+Prevent unintended horizontal scrolling.
+
+All interactive elements must be touch-friendly.
+
+6. PUBLIC SAAS WEBSITE
+
+Create a complete marketing website.
+
+Landing page
+
+Include:
+
+Animated navigation.
+
+Product logo.
+
+Hero section.
+
+Animated QR illustration.
+
+Product screenshots.
+
+Feature highlights.
+
+How-it-works section.
+
+Role-based benefits.
+
+Interactive product preview.
+
+Security section.
+
+Analytics preview.
+
+Subscription pricing.
+
+Frequently asked questions.
+
+Contact form.
+
+Footer.
+
+Suggested hero headline:
+
+Smart Attendance Starts With a Scan.
+
+Suggested supporting text:
+
+Manage college attendance with secure dynamic QR codes, real-time verification and intelligent reporting.
+
+Primary CTA:
+
+Get Started
+
+Secondary CTA:
+
+Explore Features
+
+Do not use fabricated testimonials, customer counts, institutional partnerships or performance statistics.
+
+Additional public pages
+
+Create:
+
+About
+
+Features
+
+Pricing
+
+Contact
+
+Help Center
+
+Privacy Policy
+
+Terms of Service
+
+Refund Policy
+
+Cookie Policy
+
+Security
+
+Implement SEO metadata, Open Graph tags, favicon and social sharing previews.
+
+Do not index private dashboards.
+
+7. COMPLETE AUTHENTICATION SYSTEM
+
+Authentication must use real backend verification.
+
+Users must not access protected pages without successful authentication.
+
+Authentication methods
+
+Implement:
+
+Email and password.
+
+Google OAuth.
+
+Phone number with SMS OTP.
+
+Email magic link.
+
+Forgot password.
+
+Reset password.
+
+Logout.
+
+Secure session renewal.
+
+Account deactivation.
+
+Session expiration.
+
+Google login
+
+When the user selects Continue with Google, open the real Google account-selection flow through the supported OAuth provider.
+
+After successful authentication, verify the Google identity on the backend.
+
+Create or link the user account according to the configured security policy.
+
+Redirect the user to the appropriate dashboard.
+
+Phone login
+
+When the user selects phone login:
+
+Enter phone number.
+
+Validate number.
+
+Request a real SMS OTP.
+
+Enter OTP.
+
+Verify the OTP on the backend.
+
+Create an authenticated session.
+
+Redirect to the appropriate dashboard.
+
+Implement OTP expiration, resend cooldowns, attempt limits and rate limiting.
+
+Email magic link
+
+Send a real, secure, single-use authentication link to the user's verified email address.
+
+Validate the token on the backend.
+
+After successful verification, establish the session and redirect to the dashboard.
+
+Security
+
+Use:
+
+bcrypt password hashing.
+
+Secure JWT or session management.
+
+HttpOnly cookies where appropriate.
+
+Secure refresh-token rotation.
+
+CSRF protection where required.
+
+Account enumeration protection.
+
+Login rate limiting.
+
+Session revocation.
+
+Secure logout.
+
+Never expose passwords, tokens or private credentials.
+
+8. ROLE-BASED ACCESS CONTROL
+
+Support these roles:
+
+Platform Super Admin
+
+College Owner
+
+College Admin
+
+Faculty
+
+Teacher
+
+Student
+
+Use a centralized permissions system.
+
+Platform administrators must not automatically bypass college privacy controls.
+
+College administrators manage their authorized institution.
+
+Faculty and teachers manage their assigned courses, students and attendance sessions.
+
+Students access only their own authorized records.
+
+A user must not gain administrator or faculty permissions merely by selecting a role during registration.
+
+Privileged roles must be assigned through verified invitations or authorized administrator actions.
+
+Every protected API must verify authentication, organization membership, permissions and resource ownership.
+
+9. MULTI-TENANT COLLEGE ARCHITECTURE
+
+Each college must have its own secure organization workspace.
+
+Store:
+
+College name.
+
+College logo.
+
+College code.
+
+Timezone.
+
+Academic calendar.
+
+Departments.
+
+Programs.
+
+Semesters.
+
+Divisions.
+
+Subjects.
+
+Faculty.
+
+Students.
+
+Subscription.
+
+Attendance settings.
+
+Use organization-scoped MongoDB queries.
+
+Never trust an organization ID supplied by the frontend without verifying membership.
+
+Prevent College A from accessing College B's records, even if someone manually changes an API URL or database identifier.
+
+Support users belonging to multiple organizations only through verified memberships.
+
+10. COLLEGE MANAGEMENT
+
+This application is for colleges and universities.
+
+Do not introduce school-specific workflows.
+
+Implement real management for:
+
+Colleges.
+
+Departments.
+
+Degree programs.
+
+Academic years.
+
+Semesters.
+
+Divisions.
+
+Batches.
+
+Subjects.
+
+Courses.
+
+Faculty.
+
+Students.
+
+Timetables.
+
+Enrollments.
+
+Examples of supported programs include BCA, B.Sc. IT, B.Tech, MCA and M.Sc. IT.
+
+Allow authorized administrators to create, edit, archive, search, filter and paginate records.
+
+Implement bulk student enrollment and validated CSV imports.
+
+Use safe, auditable deletion and archiving policies.
+
+11. DYNAMIC SECURE QR ATTENDANCE
+
+This is the most important feature.
+
+Faculty must be able to create attendance sessions and display a dynamically changing QR code.
+
+Faculty flow
+
+Login.
+
+Open the faculty dashboard.
+
+Select department.
+
+Select semester.
+
+Select division.
+
+Select subject.
+
+Select class.
+
+Configure attendance duration.
+
+Configure QR rotation.
+
+Start attendance.
+
+Display the QR code.
+
+View live attendance.
+
+End the session.
+
+QR rotation
+
+Support configurable rotation intervals:
+
+10 seconds.
+
+15 seconds.
+
+20 seconds.
+
+30 seconds.
+
+The default interval is 15 seconds.
+
+Generate cryptographically secure QR tokens on the backend.
+
+Store token hashes where appropriate.
+
+The QR must contain only the minimum secure information required for check-in.
+
+Do not expose student data or internal database credentials.
+
+When the QR rotates, invalidate the previous token according to the configured policy.
+
+The attendance session remains active while its QR changes.
+
+QR security
+
+Implement:
+
+Secure randomness.
+
+Token expiration.
+
+Token revocation.
+
+Session validation.
+
+Enrollment validation.
+
+Organization validation.
+
+Duplicate prevention.
+
+Replay protection.
+
+Rate limiting.
+
+Server-side time validation.
+
+Inactive-session rejection.
+
+Cross-organization protection.
+
+The backend must be the source of truth.
+
+Never rely on a frontend countdown to determine whether a QR is valid.
+
+12. STUDENT QR SCANNING
+
+Create a dedicated mobile-first scanner page.
+
+Student flow
+
+Login.
+
+Open the dashboard.
+
+Select Scan QR.
+
+Grant camera permission.
+
+Scan the faculty's QR.
+
+Send the token to the backend.
+
+Validate identity and enrollment.
+
+Validate the QR and session.
+
+Check whether attendance already exists.
+
+Record attendance in MongoDB.
+
+Update the faculty dashboard.
+
+Display the confirmation.
+
+Show:
+
+Student name.
+
+Subject.
+
+Date.
+
+Check-in time.
+
+Attendance status.
+
+Confirmation message.
+
+Only display success after the backend confirms the attendance transaction.
+
+Handle expired QR codes, duplicate scans, invalid tokens, camera permission failures and network errors.
+
+Support the flashlight where the device and browser allow it.
+
+13. ADDITIONAL ATTENDANCE SECURITY
+
+Implement configurable anti-proxy attendance features.
+
+Location verification
+
+Allow authorized colleges to configure an attendance location and permitted radius.
+
+Use browser geolocation only with the user's permission.
+
+Explain when and why location is requested.
+
+Do not continuously track students.
+
+Treat GPS as an additional signal, not proof of physical presence.
+
+Device verification
+
+Support optional device registration and suspicious-session detection.
+
+Do not use invasive fingerprinting.
+
+Campus network verification
+
+Allow colleges to configure approved network conditions where technically feasible.
+
+Do not rely on IP addresses as definitive proof of campus presence.
+
+Additional confirmation
+
+Support an optional faculty-approved confirmation step for high-security sessions.
+
+Implement all verification rules on the backend.
+
+14. ATTENDANCE SESSION MANAGEMENT
+
+Support these session states:
+
+Scheduled
+
+Active
+
+Paused
+
+Ended
+
+Cancelled
+
+Expired
+
+Only allow valid state transitions.
+
+Faculty must be able to:
+
+Schedule sessions.
+
+Start sessions.
+
+Pause sessions.
+
+Resume eligible sessions.
+
+End sessions.
+
+View session history.
+
+Review attendance.
+
+Request corrections.
+
+Automatically invalidate QR tokens when sessions end.
+
+Support configurable late thresholds.
+
+Store timestamps consistently in UTC and display them using the college's timezone.
+
+15. LIVE ATTENDANCE DASHBOARD
+
+Use Socket.IO for real-time updates.
+
+Display:
+
+Active session.
+
+Subject.
+
+Faculty.
+
+Total enrolled students.
+
+Present students.
+
+Absent students.
+
+Late students.
+
+Attendance percentage.
+
+Recent check-ins.
+
+Session duration.
+
+QR countdown.
+
+Live connection status.
+
+When a student successfully checks in, update the faculty dashboard without requiring a manual refresh.
+
+Implement authenticated Socket.IO connections and organization-scoped rooms.
+
+Handle disconnects and reconnections.
+
+After reconnecting, retrieve current server state to prevent missed events.
+
+Never use fake counters or simulated attendance events.
+
+16. FACULTY FULLSCREEN QR DISPLAY
+
+Create a dedicated classroom display mode.
+
+Show:
+
+College logo.
+
+Subject.
+
+Faculty name.
+
+Large QR code.
+
+QR countdown.
+
+Session duration.
+
+Attendance count.
+
+Attendance percentage.
+
+Session status.
+
+Optimize this screen for projectors, classroom televisions, tablets and laptops.
+
+Make the QR large and readable.
+
+Provide fullscreen and dark/light display options.
+
+If the QR becomes stale, show a reconnecting or expired state rather than displaying it as valid.
+
+17. STUDENT DASHBOARD
+
+Create a personalized dashboard.
+
+Include:
+
+Today's lectures.
+
+Upcoming lectures.
+
+Overall attendance percentage.
+
+Subject-wise attendance.
+
+Present days.
+
+Absent days.
+
+Late arrivals.
+
+Attendance streak.
+
+Attendance calendar.
+
+Recent check-ins.
+
+Notifications.
+
+QR scanner shortcut.
+
+Use actual backend data.
+
+Students must only see their own authorized information.
+
+18. FACULTY DASHBOARD
+
+Include:
+
+Assigned subjects.
+
+Assigned divisions.
+
+Today's lectures.
+
+Upcoming sessions.
+
+Active sessions.
+
+Start attendance button.
+
+Live attendance feed.
+
+Recent attendance.
+
+Student lists.
+
+Attendance analytics.
+
+Low-attendance students.
+
+Reports.
+
+Timetable.
+
+Faculty must not access unrelated departments or restricted administrator data.
+
+19. COLLEGE ADMIN DASHBOARD
+
+Include:
+
+Total students.
+
+Total faculty.
+
+Departments.
+
+Courses.
+
+Active sessions.
+
+Today's attendance.
+
+Attendance trends.
+
+Low-attendance alerts.
+
+Recent activity.
+
+Pending correction requests.
+
+Subscription status.
+
+Usage statistics.
+
+Add quick actions for creating students, assigning faculty, managing courses and generating reports.
+
+20. SUPER ADMIN DASHBOARD
+
+Create a separate platform administration experience.
+
+Include:
+
+Registered colleges.
+
+Active organizations.
+
+Subscription distribution.
+
+Platform revenue.
+
+Payment status.
+
+Usage statistics.
+
+System health.
+
+API error rates.
+
+Support requests.
+
+Feature flags.
+
+Audit logs.
+
+Implement strict platform administrator authentication and authorization.
+
+Do not expose private student records unnecessarily.
+
+21. ATTENDANCE HISTORY AND PAGINATION
+
+Create a complete attendance history system.
+
+Support these views:
+
+Today.
+
+Yesterday.
+
+This week.
+
+Last week.
+
+This month.
+
+Last month.
+
+This semester.
+
+This academic year.
+
+Custom date range.
+
+Allow filtering by:
+
+Student.
+
+Enrollment number.
+
+Department.
+
+Semester.
+
+Division.
+
+Subject.
+
+Faculty.
+
+Attendance status.
+
+Session.
+
+Implement server-side search, sorting, filtering and pagination.
+
+Support configurable page sizes of 10, 25, 50 and 100 records.
+
+On desktop, use responsive data tables.
+
+On mobile, use compact cards or controlled table scrolling.
+
+Persist appropriate filters in the URL.
+
+22. PDF, CSV AND EXCEL REPORTS
+
+Implement real server-generated exports.
+
+Support:
+
+Daily attendance.
+
+Weekly attendance.
+
+Monthly attendance.
+
+Semester attendance.
+
+Academic-year attendance.
+
+Subject-wise attendance.
+
+Student-wise attendance.
+
+Division-wise attendance.
+
+Faculty-wise attendance.
+
+Late-arrival reports.
+
+Absence reports.
+
+Attendance correction reports.
+
+Export formats:
+
+PDF.
+
+CSV.
+
+XLSX.
+
+PDF reports must include:
+
+College logo.
+
+College name.
+
+Report title.
+
+Date range.
+
+Subject or division.
+
+Student information.
+
+Attendance summary.
+
+Attendance percentage.
+
+Generation timestamp.
+
+Page numbers.
+
+Use real database data.
+
+Apply the selected filters to exported reports.
+
+Require server-side authorization.
+
+For large exports, use background jobs and secure download links.
+
+23. ADVANCED ANALYTICS
+
+Create an interactive analytics dashboard using Recharts.
+
+Include:
+
+Daily attendance trends.
+
+Weekly attendance trends.
+
+Monthly attendance trends.
+
+Present versus absent.
+
+Subject-wise comparisons.
+
+Division-wise comparisons.
+
+Late-arrival trends.
+
+Attendance streaks.
+
+Attendance heatmaps.
+
+Attendance calendar.
+
+Session participation.
+
+Students below the attendance threshold.
+
+Support configurable attendance thresholds, including 75% where appropriate.
+
+Use real MongoDB aggregation pipelines.
+
+Optimize queries with suitable indexes.
+
+Charts must have accessible labels, loading states, empty states and error handling.
+
+Do not present descriptive analytics as guaranteed predictions.
+
+24. NEW FEATURE: SMART ATTENDANCE RECOVERY
+
+Allow students to submit attendance correction requests.
+
+Example reasons:
+
+Camera malfunction.
+
+Network failure.
+
+Authorized medical leave.
+
+Faculty-approved exception.
+
+Incorrect attendance status.
+
+The request should contain:
+
+Attendance session.
+
+Reason.
+
+Optional supporting document.
+
+Submission timestamp.
+
+Current status.
+
+Faculty or authorized administrators can approve or reject requests.
+
+Store the original attendance value, corrected value, reviewer, reason and timestamp.
+
+Never silently overwrite attendance history.
+
+25. NEW FEATURE: INTELLIGENT TIMETABLE
+
+Create a dynamic college timetable.
+
+Support:
+
+Departments.
+
+Semesters.
+
+Divisions.
+
+Subjects.
+
+Faculty.
+
+Lecture times.
+
+Classroom assignments.
+
+Holidays.
+
+Cancelled lectures.
+
+Rescheduled lectures.
+
+Detect timetable conflicts.
+
+Allow authorized faculty to start attendance directly from scheduled lectures.
+
+Support day, week and month calendar views.
+
+Add optional Google Calendar integration with user authorization.
+
+26. NEW FEATURE: SMART ATTENDANCE ALERTS
+
+Implement configurable alerts.
+
+Examples:
+
+Attendance below the college threshold.
+
+Repeated absences.
+
+Attendance correction approved.
+
+Attendance correction rejected.
+
+Upcoming lecture.
+
+Session started.
+
+Session cancelled.
+
+Subscription nearing expiration.
+
+Use in-app notifications and optional email delivery.
+
+Provide notification preferences.
+
+Do not send excessive notifications.
+
+27. NEW FEATURE: ATTENDANCE INSIGHTS
+
+Create a student-facing attendance planning tool.
+
+Show:
+
+Current attendance percentage.
+
+Lectures attended.
+
+Lectures missed.
+
+Remaining scheduled lectures.
+
+Configured minimum attendance.
+
+Attendance required to reach the target.
+
+Use actual attendance records and known timetable data.
+
+Clearly label projections based on future scheduled lectures as estimates.
+
+Do not guarantee future eligibility.
+
+28. NEW FEATURE: FACULTY WORKLOAD ANALYTICS
+
+Provide authorized faculty and administrators with descriptive workload information.
+
+Include:
+
+Scheduled lectures.
+
+Completed lectures.
+
+Attendance sessions conducted.
+
+Average session participation.
+
+Cancelled lectures.
+
+Rescheduled lectures.
+
+Subject distribution.
+
+Do not use attendance statistics as unsupported judgments about faculty performance.
+
+29. NEW FEATURE: SMART QR RESCUE
+
+Handle temporary technical problems gracefully.
+
+If a student cannot scan a QR because of a camera or accessibility issue, allow a faculty-controlled alternative check-in method.
+
+The faculty must verify the student through an approved institutional process.
+
+Record the alternative attendance method and authorization in the audit log.
+
+Never allow students to bypass attendance verification independently.
+
+30. NEW FEATURE: COLLEGE BRANDING
+
+Allow eligible organizations to customize:
+
+College logo.
+
+College display name.
+
+Accent color.
+
+Report header.
+
+Email branding.
+
+QR display branding.
+
+Keep the application accessible and maintain adequate color contrast.
+
+31. NEW FEATURE: GLOBAL SEARCH
+
+Implement application-wide search.
+
+Support authorized searches for:
+
+Students.
+
+Faculty.
+
+Departments.
+
+Subjects.
+
+Courses.
+
+Attendance sessions.
+
+Reports.
+
+Use server-side search with debouncing.
+
+Add the keyboard shortcut:
+
+Ctrl + K
+
+Create a modern command palette with permission-aware quick actions.
+
+32. NEW FEATURE: CONFIGURABLE DASHBOARD
+
+Allow users to personalize their dashboard.
+
+Support:
+
+Reordering cards.
+
+Showing or hiding widgets.
+
+Selecting a default date range.
+
+Choosing a preferred theme.
+
+Saving display preferences.
+
+Persist preferences in MongoDB.
+
+Do not allow dashboard customization to bypass permissions.
+
+33. PROFILE MANAGEMENT
+
+Create a complete profile page.
+
+Show:
+
+Profile image.
+
+Full name.
+
+Verified email.
+
+Verified phone number.
+
+Role.
+
+College.
+
+Department.
+
+Program.
+
+Semester.
+
+Enrollment number or employee ID.
+
+Account status.
+
+Institution-controlled fields must be read-only for ordinary users.
+
+Students must not directly edit their role, enrollment number, department, semester or official college details.
+
+Allow users to update permitted personal preferences.
+
+Provide a formal request process for changes to protected details.
+
+34. NOTIFICATION CENTER
+
+Create a dedicated notification page.
+
+Implement:
+
+Real-time notifications.
+
+Read and unread states.
+
+Mark as read.
+
+Mark all as read.
+
+Notification categories.
+
+Search.
+
+Pagination.
+
+Notification preferences.
+
+Store notifications in MongoDB.
+
+Use Socket.IO for real-time delivery.
+
+35. SAAS SUBSCRIPTION SYSTEM
+
+Implement three paid plans and a free trial.
+
+Use organization-level subscriptions.
+
+The following are initial proposed commercial prices and quotas. Keep them configurable so the platform administrator can adjust them after evaluating operating costs.
+
+FREE TRIAL — ₹0
+
+Duration: 14 days.
+
+Includes:
+
+1 college workspace.
+
+1 administrator.
+
+2 faculty accounts.
+
+50 students.
+
+20 attendance sessions.
+
+Basic QR attendance.
+
+30-day report history.
+
+Basic dashboard.
+
+Limited PDF exports.
+
+Platform advertisements.
+
+Attend With QR branding.
+
+BASIC — ₹499/month
+
+Includes:
+
+1 college workspace.
+
+5 faculty accounts.
+
+200 students.
+
+100 attendance sessions per month.
+
+Dynamic QR attendance.
+
+15-second QR rotation.
+
+Basic analytics.
+
+PDF and CSV exports.
+
+6-month report history.
+
+Email notifications.
+
+Limited advertisements.
+
+Standard support.
+
+PRO — ₹1,499/month
+
+Includes:
+
+1 college workspace.
+
+25 faculty accounts.
+
+1,000 students.
+
+1,000 attendance sessions per month.
+
+Configurable QR rotation.
+
+Advanced analytics.
+
+Attendance correction workflow.
+
+Timetable management.
+
+PDF, CSV and Excel exports.
+
+Attendance alerts.
+
+2-year report history.
+
+College logo customization.
+
+No advertisements.
+
+Priority support.
+
+PREMIUM — ₹4,999/month
+
+Includes:
+
+1 college workspace.
+
+100 faculty accounts.
+
+5,000 students.
+
+10,000 attendance sessions per month.
+
+Advanced QR security.
+
+Advanced analytics.
+
+Custom report branding.
+
+Advanced notifications.
+
+Audit logs.
+
+Extended report retention.
+
+Bulk imports and exports.
+
+Advanced administrative controls.
+
+No advertisements.
+
+Premium support.
+
+Offer annual billing with a configurable discount.
+
+For institutions requiring higher quotas, create a custom enterprise plan with individually agreed pricing.
+
+Plan enforcement
+
+Implement a centralized entitlement service.
+
+All quotas must be enforced on the backend.
+
+Track usage using MongoDB.
+
+Handle monthly resets, subscription renewals, failed payments, cancellation and plan changes.
+
+Do not allow frontend manipulation to bypass limits.
+
+When a plan limit is reached, display a helpful explanation and available upgrade options.
+
+Never silently delete existing records when a subscription expires or is downgraded.
+
+36. ADVERTISEMENT SYSTEM
+
+Create a configurable advertisement system.
+
+Ads must not interfere with attendance, authentication or essential college workflows.
+
+Free trial
+
+Allow limited advertisements on the dashboard and non-critical informational pages.
+
+Basic
+
+Allow one small, non-intrusive advertisement placement on eligible dashboard pages.
+
+Pro
+
+No advertisements.
+
+Premium
+
+No advertisements.
+
+Do not display advertisements on:
+
+Login and registration.
+
+OTP verification.
+
+QR scanner.
+
+Active QR display.
+
+Attendance confirmation.
+
+Payment checkout.
+
+Sensitive student records.
+
+Support consent and privacy requirements.
+
+Do not expose student information to advertising providers.
+
+The platform administrator must be able to disable advertisements globally.
+
+Do not implement deceptive advertisements or simulated ad revenue.
+
+37. REAL PAYMENT INTEGRATION
+
+Implement Razorpay as the primary payment provider for India.
+
+Support Stripe where available and appropriate.
+
+Payment options should include provider-supported methods such as:
+
+UPI.
+
+Debit cards.
+
+Credit cards.
+
+Net banking.
+
+Wallets.
+
+Supported international cards.
+
+Implement:
+
+Create order.
+
+Secure checkout.
+
+Verify payment signature.
+
+Payment status.
+
+Subscription activation.
+
+Subscription renewal.
+
+Failed payment handling.
+
+Cancellation.
+
+Refund processing.
+
+Invoice generation.
+
+Payment history.
+
+Billing dashboard.
+
+Webhook verification.
+
+Idempotent payment processing.
+
+Never activate a paid subscription solely because the frontend reports payment success.
+
+Verify payment status using trusted backend and provider data.
+
+Do not claim a payment integration is live until real provider credentials and supported payment flows have been tested.
+
+38. MONGODB DATABASE DESIGN
+
+Use Mongoose schemas with proper validation, indexes and relationships.
+
+Required collections include:
+
+organizations users organization_members departments programs academic_years semesters divisions subjects courses faculty_assignments enrollments timetables attendance_sessions attendance_tokens attendance_records attendance_corrections notifications audit_logs organization_settings subscriptions payments invoices plan_usage invitations support_requests user_preferences 
+
+Add collections only when required by implemented features.
+
+Use appropriate references and organization-scoped indexes.
+
+Attendance record
+
+Include:
+
+_id organizationId sessionId studentId subjectId status checkedInAt checkedOutAt method verificationMetadata createdAt updatedAt 
+
+Attendance statuses:
+
+PRESENT LATE ABSENT EXCUSED 
+
+Use a compound unique index for session ID and student ID to prevent duplicate attendance.
+
+Use MongoDB transactions for operations that must be atomic.
+
+Configure the required MongoDB deployment topology for transactions.
+
+Use migrations or controlled schema-evolution scripts for production changes.
+
+Never destroy production data unnecessarily.
+
+39. REAL REST API ARCHITECTURE
+
+Create versioned REST APIs under:
+
+/api/v1
+
+Implement real GET, POST, PUT, PATCH and DELETE methods where appropriate.
+
+Authentication
+
+POST /api/v1/auth/register POST /api/v1/auth/login POST /api/v1/auth/logout POST /api/v1/auth/refresh POST /api/v1/auth/forgot-password POST /api/v1/auth/reset-password POST /api/v1/auth/google POST /api/v1/auth/phone/request-otp POST /api/v1/auth/phone/verify-otp POST /api/v1/auth/email/magic-link POST /api/v1/auth/email/verify GET /api/v1/auth/me 
+
+Organizations
+
+GET /api/v1/organizations POST /api/v1/organizations GET /api/v1/organizations/:id PATCH /api/v1/organizations/:id DELETE /api/v1/organizations/:id 
+
+Students
+
+GET /api/v1/students POST /api/v1/students GET /api/v1/students/:id PUT /api/v1/students/:id PATCH /api/v1/students/:id DELETE /api/v1/students/:id 
+
+Faculty
+
+GET /api/v1/faculty POST /api/v1/faculty GET /api/v1/faculty/:id PUT /api/v1/faculty/:id DELETE /api/v1/faculty/:id 
+
+Courses and subjects
+
+GET /api/v1/courses POST /api/v1/courses GET /api/v1/courses/:id PUT /api/v1/courses/:id DELETE /api/v1/courses/:id 
+
+Create equivalent authorized CRUD routes for departments, programs, semesters, divisions, subjects, enrollments and timetables.
+
+Attendance
+
+GET /api/v1/attendance/sessions POST /api/v1/attendance/sessions GET /api/v1/attendance/sessions/:id POST /api/v1/attendance/sessions/:id/start POST /api/v1/attendance/sessions/:id/pause POST /api/v1/attendance/sessions/:id/resume POST /api/v1/attendance/sessions/:id/end GET /api/v1/attendance/sessions/:id/qr POST /api/v1/attendance/check-in GET /api/v1/attendance/history 
+
+Analytics and reports
+
+GET /api/v1/analytics/overview GET /api/v1/analytics/trends GET /api/v1/analytics/students GET /api/v1/reports POST /api/v1/reports/export GET /api/v1/reports/download/:id 
+
+Billing
+
+GET /api/v1/billing/plans GET /api/v1/billing/subscription POST /api/v1/billing/create-order POST /api/v1/billing/verify POST /api/v1/billing/webhook GET /api/v1/billing/invoices 
+
+Implement corresponding APIs for notifications, corrections, settings, invitations, audit logs and support requests.
+
+Use consistent JSON responses and meaningful HTTP status codes.
+
+Do not expose raw database errors or stack traces.
+
+Document every implemented endpoint.
+
+40. REAL-TIME ARCHITECTURE
+
+Use Socket.IO with authenticated, organization-scoped connections.
+
+Implement events such as:
+
+attendance.created attendance.updated attendance.corrected session.started session.paused session.resumed session.ended qr.rotated student.updated enrollment.updated notification.created 
+
+Handle reconnection and synchronization.
+
+Prevent duplicate events from creating duplicate records.
+
+Do not rely on Socket.IO as the only source of persistent data.
+
+MongoDB remains the source of truth.
+
+41. AI-POWERED FEATURES
+
+Add optional AI features using a real, configurable AI provider.
+
+Support:
+
+Attendance summary generation.
+
+Plain-language report explanations.
+
+Descriptive attendance trend summaries.
+
+Faculty report assistance.
+
+Administrative insights.
+
+Natural-language queries over authorized aggregate attendance data.
+
+Example:
+
+"Summarize attendance for M.Sc. IT Semester 3 this month."
+
+Use authorized database queries to retrieve relevant information.
+
+Do not let the AI invent attendance records, statistics or institutional policies.
+
+Do not send unnecessary student personal information to AI providers.
+
+Require appropriate institutional authorization and privacy controls.
+
+If the AI provider is unavailable, display a proper error and keep core attendance functionality operational.
+
+42. SECURE FILE UPLOADS
+
+Use Multer and Sharp where appropriate.
+
+Support:
+
+College logos.
+
+Profile images.
+
+Authorized attendance correction documents.
+
+Validated CSV imports.
+
+Validate file type, file size, extension and content where possible.
+
+Use private storage for sensitive documents.
+
+Never trust client-provided MIME types.
+
+Protect file access using authentication and authorization.
+
+43. PWA SUPPORT
+
+Make Attend With QR installable as a Progressive Web App.
+
+Implement:
+
+Web app manifest.
+
+App icons.
+
+Theme colors.
+
+Service worker.
+
+Install prompt where supported.
+
+Responsive layouts.
+
+Safe caching.
+
+Offline information pages where appropriate.
+
+Never falsely confirm attendance while offline.
+
+If the server is unavailable, show:
+
+"You're offline. Attendance cannot be confirmed until the server is reachable."
+
+Only implement offline attendance synchronization if it has a separately designed and verified security architecture.
+
+44. ACCESSIBILITY
+
+Target WCAG 2.2 AA where practical.
+
+Implement:
+
+Semantic HTML.
+
+Keyboard navigation.
+
+Visible focus indicators.
+
+Accessible forms.
+
+Proper labels.
+
+Screen-reader announcements.
+
+Accessible dialogs.
+
+Sufficient color contrast.
+
+Reduced-motion support.
+
+Accessible charts.
+
+Accessible attendance tables.
+
+Clear QR scanning instructions.
+
+Never communicate attendance status using color alone.
+
+45. APPLICATION PERFORMANCE
+
+Optimize:
+
+React rendering.
+
+Lazy loading.
+
+Route-based code splitting.
+
+Image loading.
+
+Bundle size.
+
+MongoDB queries.
+
+Database indexes.
+
+API response sizes.
+
+Server-side pagination.
+
+Chart rendering.
+
+QR generation.
+
+Socket.IO event handling.
+
+Avoid unnecessary polling.
+
+Use TanStack Query for server-state caching and invalidation.
+
+Do not cache private student data in publicly accessible storage.
+
+46. COMPLETE SECURITY REQUIREMENTS
+
+Implement a comprehensive security architecture.
+
+Review and protect against:
+
+Broken authentication.
+
+Broken authorization.
+
+IDOR.
+
+Cross-tenant data access.
+
+XSS.
+
+CSRF.
+
+NoSQL injection.
+
+Command injection.
+
+Unsafe redirects.
+
+Malicious file uploads.
+
+QR replay attacks.
+
+QR token enumeration.
+
+Brute-force attacks.
+
+Duplicate attendance.
+
+Session hijacking.
+
+Secret exposure.
+
+Payment webhook forgery.
+
+Excessive API requests.
+
+Use Helmet, strict input validation, appropriate CORS configuration, secure cookies and rate limiting.
+
+Apply rate limits to authentication, OTP requests, QR check-in, invitations, exports and expensive analytics.
+
+Never store passwords, private tokens or payment credentials in application logs.
+
+Use HTTPS in production.
+
+47. AUDIT LOGGING
+
+Create a real audit log.
+
+Track important actions such as:
+
+Login.
+
+User invitation.
+
+Role changes.
+
+Student creation.
+
+Student archiving.
+
+Course changes.
+
+Session creation.
+
+Session start.
+
+Session end.
+
+Attendance corrections.
+
+Report exports.
+
+Settings changes.
+
+Billing changes.
+
+Record the actor, action, authorized organization, timestamp and relevant non-sensitive metadata.
+
+Create a searchable, paginated administrator audit log.
+
+48. ERROR HANDLING
+
+Every major page must include:
+
+Loading state.
+
+Empty state.
+
+Error state.
+
+Retry option.
+
+Permission-denied state.
+
+Implement React error boundaries.
+
+Create centralized Express error handling.
+
+Use meaningful error messages.
+
+Examples:
+
+"No students have been added yet."
+
+"This QR code has expired."
+
+"Attendance has already been recorded."
+
+"Your session has expired. Please sign in again."
+
+"Connection lost. Reconnecting..."
+
+Do not show raw stack traces, undefined values or internal database errors.
+
+49. REAL BACKEND FUNCTIONALITY
+
+Every visible functional control must perform a real operation.
+
+Examples:
+
+Add Student ↓ Validated API request ↓ Authorization ↓ MongoDB persistence ↓ Updated student list Start Attendance ↓ Authenticated API request ↓ Session creation ↓ Secure QR generation ↓ MongoDB persistence ↓ Real-time QR display Scan QR ↓ Token validation ↓ Enrollment verification ↓ Duplicate prevention ↓ Atomic attendance transaction ↓ Socket.IO event ↓ Dashboard update 
+
+Never implement buttons that only display fake success messages.
+
+Do not use localStorage as a substitute for MongoDB.
+
+Do not hardcode dashboard statistics.
+
+Do not use simulated API responses in production flows.
+
+Development fixtures must remain isolated from production.
+
+50. AUTOMATED QA TESTING
+
+Use Vitest or Jest, React Testing Library, Supertest and Playwright as appropriate.
+
+Unit tests
+
+Test:
+
+Validation.
+
+Attendance calculations.
+
+QR token generation.
+
+QR expiration.
+
+Role permissions.
+
+Subscription entitlements.
+
+Date handling.
+
+Report calculations.
+
+Integration tests
+
+Test:
+
+Registration.
+
+Authentication.
+
+Authorization.
+
+Tenant isolation.
+
+Student CRUD.
+
+Faculty CRUD.
+
+Course CRUD.
+
+Enrollment.
+
+Session creation.
+
+QR validation.
+
+Attendance persistence.
+
+Duplicate prevention.
+
+Attendance corrections.
+
+Billing webhooks.
+
+End-to-end tests
+
+Verify the complete flow:
+
+Register a college.
+
+Create an administrator.
+
+Sign in.
+
+Create a department.
+
+Create a course.
+
+Add faculty.
+
+Add students.
+
+Enroll students.
+
+Create a timetable.
+
+Start an attendance session.
+
+Generate the QR.
+
+Display the QR.
+
+Scan the QR.
+
+Validate the token.
+
+Record attendance.
+
+Update the faculty dashboard.
+
+Rotate the QR.
+
+Reject an expired QR.
+
+Reject duplicate attendance.
+
+Reject unauthorized access.
+
+Update analytics.
+
+Generate a PDF report.
+
+Log out.
+
+Log in again.
+
+Verify that data persists.
+
+Test successful and unsuccessful flows.
+
+51. RESPONSIVE AND BROWSER QA
+
+Test supported modern browsers.
+
+Verify:
+
+Mobile navigation.
+
+Desktop navigation.
+
+Dark mode.
+
+Light mode.
+
+Forms.
+
+Tables.
+
+Charts.
+
+Dialogs.
+
+QR generation.
+
+Camera permissions.
+
+QR scanning.
+
+Real-time reconnection.
+
+Authentication persistence.
+
+Payment flows.
+
+PDF downloads.
+
+Keyboard navigation.
+
+Check for:
+
+Blank pages.
+
+Broken routes.
+
+Unhandled exceptions.
+
+Console errors.
+
+Failed API calls.
+
+Layout overflow.
+
+Missing assets.
+
+Incorrect redirects.
+
+Infinite loading.
+
+Memory leaks.
+
+Fix identified defects rather than hiding errors.
+
+52. PRODUCTION MONITORING
+
+Implement structured server logs and health checks.
+
+Monitor:
+
+API errors.
+
+Authentication failures.
+
+Database connection failures.
+
+QR validation failures.
+
+Socket.IO disconnections.
+
+Background job failures.
+
+Payment webhook failures.
+
+Unexpected exceptions.
+
+Add a compatible error-monitoring service where configured.
+
+Do not log passwords, QR tokens, session secrets or unnecessary personal data.
+
+53. DOCKER AND CI/CD
+
+Create separate Docker configurations for the frontend and backend where appropriate.
+
+Provide Docker Compose for local development.
+
+Create a GitHub Actions pipeline.
+
+The pipeline must run:
+
+Dependency installation.
+
+Linting.
+
+Unit tests.
+
+Integration tests.
+
+Production build.
+
+Security checks.
+
+Deployment steps where credentials are configured.
+
+Never place secrets in the repository.
+
+Use environment-specific configuration.
+
+54. PRODUCTION DEPLOYMENT
+
+Prepare the application for:
+
+Frontend: Vercel.
+
+Backend: Render or another compatible Node.js hosting provider.
+
+Database: MongoDB Atlas.
+
+File storage: Cloudinary or S3-compatible storage.
+
+Use environment variables for all service credentials.
+
+Configure:
+
+Production frontend URL.
+
+Production backend URL.
+
+MongoDB connection.
+
+Authentication secrets.
+
+Google OAuth credentials.
+
+SMS provider.
+
+Email provider.
+
+Razorpay credentials.
+
+Stripe credentials where used.
+
+Storage credentials.
+
+AI provider credentials.
+
+Monitoring configuration.
+
+Provide:
+
+Local setup instructions.
+
+Development commands.
+
+Production build commands.
+
+Database configuration.
+
+Environment variable documentation.
+
+Deployment instructions.
+
+Domain configuration.
+
+HTTPS configuration.
+
+CORS configuration.
+
+Health checks.
+
+Rollback instructions.
+
+Backup and recovery instructions.
+
+Do not commit actual secrets.
+
+55. PROJECT IMPLEMENTATION ORDER
+
+Build the project in the following sequence.
+
+Phase 1 — Foundation
+
+Create the clean project structure.
+
+Initialize React, Vite, Tailwind CSS, Node.js, Express and MongoDB.
+
+Configure routing, environment variables, API communication, validation and error handling.
+
+Phase 2 — Design system
+
+Create the logo, brand assets, themes, typography, reusable components, layouts and animation system.
+
+Phase 3 — Authentication
+
+Implement real registration, login, Google OAuth, phone OTP, email magic links, secure sessions and authorization.
+
+Phase 4 — SaaS architecture
+
+Implement organizations, memberships, roles, permissions, onboarding and tenant isolation.
+
+Phase 5 — College management
+
+Implement departments, programs, semesters, divisions, subjects, faculty, students and enrollments.
+
+Phase 6 — Attendance engine
+
+Implement secure sessions, dynamic QR generation, rotation, scanning, validation and attendance persistence.
+
+Phase 7 — Real-time functionality
+
+Implement Socket.IO, live attendance feeds, QR updates and reconnect synchronization.
+
+Phase 8 — Dashboards
+
+Build student, faculty, college administrator and platform administrator dashboards.
+
+Phase 9 — Reports and analytics
+
+Implement attendance history, pagination, filters, charts, PDF exports, CSV exports and Excel exports.
+
+Phase 10 — Advanced features
+
+Implement timetables, corrections, notifications, attendance insights, global search, configurable dashboards and optional AI services.
+
+Phase 11 — Monetization
+
+Implement plans, usage limits, advertisements, payments, subscriptions, invoices and billing administration.
+
+Phase 12 — Production infrastructure
+
+Implement PWA support, Docker, CI/CD, monitoring, backups, deployment configuration and documentation.
+
+Phase 13 — QA and optimization
+
+Run all automated and manual tests available in the development environment.
+
+Fix identified issues.
+
+Verify production builds and critical workflows.
+
+56. STRICT DEVELOPMENT RULES
+
+Do not stop after creating the landing page.
+
+Do not stop after creating the frontend.
+
+Do not stop after creating the backend.
+
+Do not stop after creating the database models.
+
+Do not stop after implementing authentication.
+
+Do not stop after generating the QR.
+
+Complete the entire application according to the implementation phases.
+
+For each feature, implement:
+
+UI ↓ API ↓ Authentication ↓ Authorization ↓ Validation ↓ Business Logic ↓ Database ↓ Real-Time Update ↓ UI Synchronization ↓ Automated Tests 
+
+Use clean, modular and maintainable code.
+
+Do not create duplicate APIs.
+
+Do not leave incomplete production features disguised as completed functionality.
+
+Do not suppress errors simply to pass tests.
+
+Do not claim that external services have been tested when their credentials or infrastructure are unavailable.
+
+If a required integration cannot be verified, clearly identify it as UNVERIFIED.
+
+57. FINAL ACCEPTANCE REQUIREMENTS
+
+Before declaring the application ready for deployment, verify:
+
+Frontend runs.
+
+Backend runs.
+
+MongoDB connects.
+
+Authentication works.
+
+Authorization works.
+
+Tenant isolation works.
+
+Student management works.
+
+Faculty management works.
+
+Course management works.
+
+Enrollment works.
+
+Dynamic QR generation works.
+
+QR rotation works.
+
+QR expiration works.
+
+QR scanning works.
+
+Duplicate prevention works.
+
+Attendance persists.
+
+Socket.IO updates work.
+
+Dashboard statistics use real data.
+
+Analytics use real data.
+
+PDF exports work.
+
+CSV exports work.
+
+Excel exports work.
+
+Notifications work.
+
+Settings persist.
+
+Subscription limits are enforced.
+
+Payment verification works when configured.
+
+Advertisements follow plan rules.
+
+Dark and light themes work.
+
+Responsive layouts work.
+
+Accessibility checks pass.
+
+Production build succeeds.
+
+Automated tests pass.
+
+No critical security findings remain.
+
+No known release-blocking defects remain.
+
+Run the actual project commands, including:
+
+npm install npm run dev npm run lint npm test npm run test:integration npm run test:e2e npm run build npm start 
+
+Create the appropriate scripts in package.json.
+
+Use equivalent commands when a command belongs to a specific workspace.
+
+Do not invent successful test results.
+
+58. FINAL IMPLEMENTATION REPORT
+
+After completing the project, provide:
+
+Attend With QR — Implementation Report
+
+Completed features
+
+List all genuinely completed features.
+
+Frontend
+
+Explain the pages, design system, themes, animations and responsive behavior.
+
+Backend
+
+Explain the implemented APIs, services, validation and error handling.
+
+Database
+
+Explain the MongoDB collections, relationships, indexes and transaction strategy.
+
+Authentication and authorization
+
+Explain the supported authentication methods, roles, permissions and tenant isolation.
+
+QR attendance
+
+Explain token generation, rotation, validation, expiration, revocation, scanning and duplicate prevention.
+
+Real-time functionality
+
+Explain Socket.IO events, authentication, reconnection and state synchronization.
+
+SaaS and billing
+
+Explain subscription plans, usage limits, payment verification, advertisements and organization management.
+
+Testing
+
+Report actual PASS, FAIL or UNVERIFIED results for linting, unit tests, integration tests, E2E tests, security checks and production builds.
+
+Deployment
+
+Provide the deployment configuration, required environment variables and exact launch instructions.
+
+Remaining issues
+
+List genuine unresolved issues and required external configuration.
+
+Do not claim zero bugs or complete production readiness without supporting verification.
+
+59. MOST IMPORTANT FINAL INSTRUCTION
+
+Start building Attend With QR from scratch inside:
+
+C:\Users\HP\projects\attend-with-qr
+
+Follow the safe project reset process first.
+
+Create the complete project structure.
+
+Build every phase in the specified order.
+
+Finish and test each phase before proceeding to the next.
+
+Preserve the agreed product requirements throughout development.
+
+If the coding environment has an output or context limit, save implementation progress and continue from the last verified phase instead of silently omitting features.
+
+Build a real, secure, animated, responsive, accessible and scalable MERN SaaS application.
+
+The final deliverable must include the complete source code, working frontend, working backend, MongoDB integration, real APIs, secure QR attendance, dashboards, analytics, subscriptions, tests, deployment configuration and documentation.
+
+FINAL GOAL: Build Attend With QR as a complete commercial SaaS website and installable web application that can be launched for real colleges and universities after all release checks and required live integrations have been verified.
+
+START WITH PHASE 1 NOW.

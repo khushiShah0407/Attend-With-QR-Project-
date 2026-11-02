@@ -1,0 +1,6 @@
+{
+  "name": "AttendQR",
+  "description": "Smart attendance management platform with dynamic rotating QR codes, live check-ins, campus geofencing, and multi-tenant analytics.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
